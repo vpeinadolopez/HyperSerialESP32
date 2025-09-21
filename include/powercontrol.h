@@ -43,7 +43,7 @@
 class
 {
 	// timeout after which the leds will be turned off if no reset is applied
-	const unsigned long POWER_OFF_PERIOD = 5 * 1000;
+	const unsigned long POWER_OFF_PERIOD = 3600 * 1000;
 
 	// last timestamp power off timer got reset
 	volatile unsigned long lastPowerOffResetTimestamp = 0;
